@@ -1,0 +1,100 @@
+@media only screen and (min-width: 1400px) and (max-width: 1920px) {
+    .single-number{
+        width: 250px;
+    }
+}
+@media only screen and (min-width: 768px) and (max-width: 1920px) {
+    .header-contain{
+        position: sticky;
+        top: 0;
+        left: 0;
+        z-index: 99999;
+    }
+}
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    .header-menu li{
+        padding: 0px 10px;
+    }
+    .number-bg{
+        width: 270px;
+    }
+    .single-number{
+        width: 150px;
+    }
+    .sub-btn{
+        margin-right: 10px;
+    }
+}
+    @media only screen and (min-width: 768px) and (max-width: 991px) {
+        .header-menu li{
+            padding: 0px 5px;
+        }
+        .single-number{
+            width: 60%;
+        }
+        .sub-btn{
+            margin-right: 5px;
+            padding: 8px 18px;
+        }
+        .single-review img{
+            height: 250px;
+        }
+        .right-pre-footer img{
+            width: 100%;
+        }
+    }
+    @media only screen and (max-width: 767px) {
+        .header-logo{
+            padding: 25px 0px 10px;
+        }
+        .header-contain{
+            padding: 0px 0px 0px;
+        }
+        .humburger{
+            visibility: visible;
+        }
+        .header-menu ,.header-btn{
+            display: none;
+        }
+        .number-bg{
+            margin: 20px 0px;
+        }
+        .single-number{
+            width: 60%;
+            padding-top: 12%;
+        }
+        .left-pre-footer{
+            text-align: center;
+        }
+        .right-pre-footer img{
+            margin-left: 0;
+            height: auto;
+        }
+        .last-pre-footer h2{
+            text-align: center;
+            margin-bottom: 30px;
+        }
+        .pre-footer-btn{
+            padding: 10px 18px;
+        }
+    }
+    @media only screen and (min-width: 480px) and (max-width: 767px) {
+        .sub-left h2{
+            text-align: center;
+        }
+        .sub-left p{
+            text-align: center;
+        }
+        .right-sub{
+            margin-left: 15%;
+        }
+        .review-text{
+            width: 100%;
+        }
+        .sub-btn{
+            padding: 15px 25px;
+        }
+    }
+    @media only screen and (min-width: 320px) and (max-width: 480px) {
+        
+    }
